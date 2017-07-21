@@ -192,79 +192,15 @@ var Footer = function (_React$Component) {
             { className: 'row' },
             _react2.default.createElement(
               'div',
-              { className: 'col-sm-5' },
+              { className: 'col-sm-12' },
               _react2.default.createElement(
-                'h3',
+                'h5',
                 { className: 'lead' },
-                _react2.default.createElement(
-                  'strong',
-                  null,
-                  'Information'
-                ),
-                ' and ',
                 _react2.default.createElement(
                   'strong',
                   null,
                   'Copyright'
                 )
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                'Powered by ',
-                _react2.default.createElement(
-                  'strong',
-                  null,
-                  'Node.js'
-                ),
-                ', ',
-                _react2.default.createElement(
-                  'strong',
-                  null,
-                  'MongoDB'
-                ),
-                ' and ',
-                _react2.default.createElement(
-                  'strong',
-                  null,
-                  'React'
-                ),
-                ' with Flux architecture and server-side rendering.'
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                'You may view the ',
-                _react2.default.createElement(
-                  'a',
-                  { href: 'https://github.com/sahat/newedenfaces-react' },
-                  'Source Code'
-                ),
-                ' behind this project on GitHub.'
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                '\xA9 2015 Sahat Yalkabov.'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'col-sm-7 hidden-xs' },
-              _react2.default.createElement(
-                'h3',
-                { className: 'lead' },
-                _react2.default.createElement(
-                  'strong',
-                  null,
-                  'Leaderboard'
-                ),
-                ' Top 5 Characters'
-              ),
-              _react2.default.createElement(
-                'ul',
-                { className: 'list-inline' },
-                leaderboardCharacters
               )
             )
           )
